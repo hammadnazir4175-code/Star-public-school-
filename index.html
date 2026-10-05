@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Public School | Khanewal</title>
+<style>
+:root{--red:#c90018;--gold:#f4b400;--navy:#10243b;--cream:#fffaf0;--text:#243447}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6;background:#fff}
+a{text-decoration:none;color:inherit}
+.top{background:var(--navy);color:white;padding:8px 6%;display:flex;justify-content:space-between;flex-wrap:wrap;font-size:14px}
+nav{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 3px 18px #0002;padding:10px 6%;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;color:var(--navy);font-weight:800;font-size:20px}.logo{width:54px;height:54px;object-fit:contain;border-radius:50%}
+.links{display:flex;gap:22px;font-weight:700}.links a:hover{color:var(--red)}
+.hero{min-height:78vh;padding:55px 6%;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;background:linear-gradient(135deg,#fffaf0,#f4f8fc)}
+.badge{display:inline-block;background:#ffe9ed;color:var(--red);padding:7px 14px;border-radius:30px;font-weight:800;margin-bottom:15px}
+h1{font-size:clamp(40px,6vw,70px);line-height:1.04;color:var(--navy);margin-bottom:18px}h1 span{color:var(--red)}
+.hero p{font-size:19px;margin-bottom:18px;max-width:650px}.btn{display:inline-block;padding:13px 22px;border-radius:8px;font-weight:800;margin:6px 7px 6px 0}.primary{background:var(--red);color:#fff}.secondary{border:2px solid var(--navy);color:var(--navy)}
+.ceo-card{position:relative;max-width:480px;margin:auto}.ceo-card img{width:100%;display:block;border-radius:24px;box-shadow:0 20px 50px #0003}.ceo-tag{position:absolute;left:18px;right:18px;bottom:18px;background:#10243beF;color:#fff;padding:14px 18px;border-radius:14px}.ceo-tag strong{color:var(--gold);font-size:20px}
+section{padding:75px 6%}.title{text-align:center;margin-bottom:40px}.title h2{font-size:38px;color:var(--navy)}.title p{color:#627d98}
+.about{background:#f6f8fb}.about-wrap{max-width:1050px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about-logo{width:230px;display:block;margin:auto}.quote{border-left:5px solid var(--gold);padding-left:20px;font-size:23px;font-weight:800;color:var(--navy)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{padding:28px;border:1px solid #e2e8ef;border-radius:16px;box-shadow:0 8px 25px #10243b10;background:#fff}.icon{font-size:35px}.card h3{color:var(--navy);margin:8px 0}
+.admissions{background:var(--navy);color:#fff}.admissions .title h2{color:#fff}.admissions .title p{color:#ccd8e5}.ad-box{max-width:900px;margin:auto;background:#fff;color:var(--text);border-radius:16px;padding:26px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+table{width:100%;max-width:900px;margin:auto;border-collapse:collapse;box-shadow:0 8px 25px #0001}th,td{padding:14px;border-bottom:1px solid #e5e7eb;text-align:left}th{background:var(--red);color:#fff}
+.contact{background:#f6f8fb}.contact-grid{max-width:950px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:30px}form{background:#fff;padding:25px;border-radius:16px;box-shadow:0 8px 25px #0001}input,textarea{width:100%;padding:13px;margin:7px 0 13px;border:1px solid #ccd5df;border-radius:7px;font:inherit}textarea{height:120px}
+footer{background:#0b1b2d;color:#d8e2ec;text-align:center;padding:30px 6%}.gold{color:var(--gold)}
+.menu{display:none;font-size:27px}
+@media(max-width:800px){.links{display:none}.menu{display:block}.hero,.about-wrap,.contact-grid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.hero{padding-top:45px}.ad-box{display:block}.about-logo{width:190px;margin-bottom:20px}}
+</style>
+</head>
+<body>
+<div class="top"><span>📍 Chak No. 68/10-R, Khanewal</span><span>📞 0308-0449295</span></div>
+
+<nav>
+<a class="brand" href="#home"><img class="logo" src="school-logo.jpg" alt="Star Public School logo"><span>Star Public School</span></a>
+<div class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#academics">Academics</a><a href="#admissions">Admissions</a><a href="#fees">Fees</a><a href="#contact">Contact</a></div>
+<div class="menu">☰</div>
+</nav>
+
+<section class="hero" id="home">
+<div>
+<span class="badge">Established 2024</span>
+<h1>Star Public <span>School</span></h1>
+<p>Building confident, disciplined and capable learners through quality education, character development and modern learning.</p>
+<p><strong>Learn today for better tomorrow.</strong></p>
+<a class="btn primary" href="#admissions">Admissions Open</a><a class="btn secondary" href="#contact">Contact School</a>
+</div>
+<div class="ceo-card">
+<img src="ceo-hammad-nazir.png" alt="Hammad Nazir, CEO of Star Public School">
+<div class="ceo-tag"><strong>Hammad Nazir</strong><br>Principal / CEO — Star Public School</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="title"><h2>About Star Public School</h2><p>Education with purpose, discipline and confidence.</p></div>
+<div class="about-wrap">
+<img class="about-logo" src="school-logo.jpg" alt="Star Public School official logo">
+<div><p>Star Public School is an educational institution in Khanewal focused on academic growth, character development and a positive learning environment.</p><br><p>Our aim is to help students discover their abilities, build confidence and prepare for a successful future.</p><br><div class="quote">“Learn today for better tomorrow.”</div></div>
+</div>
+</section>
+
+<section id="academics">
+<div class="title"><h2>Academics</h2><p>Learning pathways for every stage.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🧒</div><h3>Play Group – Prep</h3><p>Early-years learning with English, Urdu, Mathematics and Islamiyat.</p></div>
+<div class="card"><div class="icon">📚</div><h3>Grades 1 – 7</h3><p>A balanced curriculum covering core subjects, science, social studies and essential skills.</p></div>
+<div class="card"><div class="icon">🧪</div><h3>Matric Classes</h3><p>Focused preparation, regular assessment and academic support for secondary students.</p></div>
+</div>
+</section>
+
+<section class="admissions" id="admissions">
+<div class="title"><h2>Admissions</h2><p>Give your child a strong start for a brighter future.</p></div>
+<div class="ad-box"><div><h3>Admissions are open</h3><p>Contact the school office for current admission requirements, class availability and fee details.</p></div><a class="btn primary" href="#contact">Apply / Enquire</a></div>
+</section>
+
+<section id="fees">
+<div class="title"><h2>Fee Structure</h2><p>Indicative fee information.</p></div>
+<div style="overflow-x:auto"><table>
+<tr><th>Classes</th><th>Admission</th><th>Monthly</th><th>Uniform</th><th>Books</th></tr>
+<tr><td>Play Group – Prep</td><td>Rs. 500</td><td>Rs. 500</td><td>Rs. 1,500</td><td>Rs. 1,500</td></tr>
+<tr><td>Grades 1 – 7</td><td>Rs. 1,000</td><td>Rs. 1,000</td><td>Rs. 2,500</td><td>Rs. 3,000</td></tr>
+</table></div>
+</section>
+
+<section id="contact" class="contact">
+<div class="title"><h2>Contact Us</h2><p>We would be happy to hear from you.</p></div>
+<div class="contact-grid">
+<div><h3>Star Public School</h3><br><p>📍 Chak No. 68/10-R, Khanewal</p><p>📞 0308-0449295</p><br><p><strong>Principal / CEO:</strong> Hammad Nazir</p></div>
+<form onsubmit="event.preventDefault();alert('Thank you! Please contact the school at 0308-0449295 to complete your enquiry.');"><input required placeholder="Parent / Student Name"><input required type="tel" placeholder="Phone Number"><input placeholder="Class / Grade"><textarea placeholder="Your message"></textarea><button class="btn primary" type="submit">Send Enquiry</button></form>
+</div>
+</section>
+
+<footer><p><strong class="gold">Star Public School</strong> — Learn today for better tomorrow.</p><p>© 2024–2026 Star Public School. All rights reserved.</p></footer>
+</body>
+</html>
